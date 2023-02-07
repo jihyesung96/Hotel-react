@@ -37,7 +37,7 @@ const VisualSlider = () => {
         console.log(currentSlide);
       };
     return (
-        <Carousel afterChange={onChange} >
+        <Carousel afterChange={onChange} autoplay>
             <div>
                 <div style={backStyle1}>
                     <h3 style={contentStyle}>01/04</h3>
